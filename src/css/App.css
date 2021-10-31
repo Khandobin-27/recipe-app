@@ -1,0 +1,29 @@
+/*this import normalize it tries to make all browsers to have sam edefault values
+so code will be look the same across different browsers*/
+/* @import-normalize; */
+@import 'recipe-list.css';
+@import 'buttons.css';
+@import 'recipe-list.css';
+@import 'recipe.css';
+@import 'ingredient-list';
+@import 'recipe-edit';
+
+*, *:before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 25px;
+  }
+  
+  body {
+    padding: 0;
+    margin: 1.2rem;
+    /* background-color: rgba(158, 60, 60, 0.925); */
+    background-color: rgb(140, 211, 214);
+    color: rgb(75, 73, 73);
+  }
+
+.mr-1 {
+  margin-right: 5px;
+}
